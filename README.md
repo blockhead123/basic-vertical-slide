@@ -26,13 +26,14 @@ Options
 
 Hooks
 -------
-<script>
-$(".box").knob({
-                    'onStart' : function (v) { /*make something*/ },
-                    'onComplete' : function (v) { /*make something*/ },
-                    'onHoverOut' : function (v) { /*make something*/ },
-                });
-</script>
+
+    <script>
+    $(".box").knob({
+        'onStart' : function (v) { /*make something*/ },
+        'onComplete' : function (v) { /*make something*/ },
+        'onHoverOut' : function (v) { /*make something*/ },
+    });
+    </script>
 
 * 'onStart' : executed on animation start as well as on hover
 
