@@ -24,8 +24,3 @@ Options
 
     This plugin currently doesn't have options.
     
-
-Preview
--------
-
-[jsfiddle](http://jsfiddle.net/blockhead123/XgNe5/#base)
