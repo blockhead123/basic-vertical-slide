@@ -23,7 +23,31 @@ Options
 -------
 
     This plugin currently doesn't have options.
-    
-    
+
+Hooks
+-------
+<script>
+$(".box").knob({
+                    'onStart' : function (v) { /*make something*/ },
+                    'onComplete' : function (v) { /*make something*/ },
+                    'onHoverOut' : function (v) { /*make something*/ },
+                });
+</script>
+
+* 'onStart' : executed on animation start as well as on hover
+
+    Parameters :
+    + object : current box object
+
+* 'onComplete' : executed on animation complete
+
+    Parameters :
+    + object : current box object
+
+* 'onHoverOut' : executed on hover out of the box
+
+    Parameters :
+    + object : current box object
+
 [Demo](http://zholpe.com/bvs/dist/basic/)
 -------
