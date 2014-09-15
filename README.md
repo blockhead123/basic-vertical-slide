@@ -28,4 +28,4 @@ Options
 Preview
 -------
 
-    jsfiddle: [link]http://jsfiddle.net/blockhead123/XgNe5/#base[/link]
+    [jsfiddle](http://jsfiddle.net/blockhead123/XgNe5/#base)
