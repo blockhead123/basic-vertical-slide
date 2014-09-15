@@ -24,3 +24,6 @@ Options
 
     This plugin currently doesn't have options.
     
+    
+[Demo](http://zholpe.com/bvs/dist/basic/)
+-------
