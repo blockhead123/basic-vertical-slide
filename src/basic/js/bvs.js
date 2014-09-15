@@ -26,6 +26,3 @@
 
     };
 }( jQuery ));
-/**
- * Created by bingo on 9/15/14.
- */
