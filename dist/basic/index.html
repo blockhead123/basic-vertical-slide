@@ -9,20 +9,24 @@
     <link href="css/bvs.min.css" media="all" rel="stylesheet" type="text/css"  />
     <script type='text/javascript'>//<![CDATA[
     $(function(){
-        $(".box").bvs();
+        $(".box").bvs({
+            onComplete: function(){
+                console.log("test");
+            }
+        });
     });//]]>
 
     </script>
 </head>
 <body>
-  
+
 <div class="box leftbox">
 </div>
 <div class="box middlebox">
 </div>
 <div class="box rightbox">
 </div>
-  
+
 </body>
 
 

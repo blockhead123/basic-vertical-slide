@@ -9,7 +9,17 @@
     <link href="css/bvs.css" media="all" rel="stylesheet" type="text/css"  />
     <script type='text/javascript'>//<![CDATA[
     $(function(){
-        $(".box").bvs();
+        $(".box").bvs({
+            onStart: function(){
+                console.log("box animation started");
+            },
+            onComplete: function(){
+                console.log("box animation completed");
+            },
+            onHoverOut: function(){
+                console.log("box animation hover out");
+            }
+        });
     });//]]>
 
     </script>
@@ -22,7 +32,7 @@
 </div>
 <div class="box rightbox">
 </div>
-  
+
 </body>
 
 
