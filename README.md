@@ -28,7 +28,7 @@ Events
 -------
 
     <script>
-    $(".box").knob({
+    $(".box").bvs({
         'onStart' : function (v) { /*make something*/ },
         'onComplete' : function (v) { /*make something*/ },
         'onHoverOut' : function (v) { /*make something*/ },
