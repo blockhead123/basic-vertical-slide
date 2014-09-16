@@ -24,7 +24,7 @@ Options
 
     This plugin currently doesn't have options.
 
-Hooks
+Events
 -------
 
     <script>
@@ -49,6 +49,16 @@ Hooks
 
     Parameters :
     + object : current box object
+
+
+Options
+-------
+
+* 'activeRatio' : percentage of active box over the rest
+
+    Parameters :
+    + object : current box object
+    Default : false
 
 [Demo](http://zholpe.com/bvs/dist/basic/)
 -------

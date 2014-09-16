@@ -2,7 +2,7 @@
     display: block;
     position: relative;
     float: left;
-    width: 33.33%;
+    width: 14.28%;
     height: 500px;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -14,17 +14,7 @@
     -o-backface-visibility: hidden;
     backface-visibility: hidden;
 }
-.leftbox{
-    background-color:orange;
-}
-.rightbox{
-    background-color:green;
-}
-.middlebox{
-    background-color:yellow;
-}
 .box.active{
-    width: 50%;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
@@ -36,7 +26,6 @@
     backface-visibility: hidden;
 }
 .box.notactive{
-    width: 25%;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;

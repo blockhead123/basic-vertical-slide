@@ -7,11 +7,28 @@
   <script type='text/javascript' src='//code.jquery.com/jquery-1.10.1.js'></script>
     <script type='text/javascript' src='js/bvs.min.js'></script>
     <link href="css/bvs.min.css" media="all" rel="stylesheet" type="text/css"  />
+    <style type="text/css">
+        .leftbox{
+            background-color:orange;
+        }
+        .rightbox{
+            background-color:green;
+        }
+        .middlebox{
+            background-color:yellow;
+        }
+    </style>
     <script type='text/javascript'>//<![CDATA[
     $(function(){
         $(".box").bvs({
+            onStart: function(){
+                console.log("box animation started");
+            },
             onComplete: function(){
-                console.log("test");
+                console.log("box animation completed");
+            },
+            onHoverOut: function(){
+                console.log("box animation hover out");
             }
         });
     });//]]>
@@ -23,6 +40,14 @@
 <div class="box leftbox">
 </div>
 <div class="box middlebox">
+</div>
+<div class="box rightbox">
+</div>
+<div class="box middlebox">
+</div>
+<div class="box rightbox">
+</div>
+<div class="box leftbox">
 </div>
 <div class="box rightbox">
 </div>
