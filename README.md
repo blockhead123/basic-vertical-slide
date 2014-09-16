@@ -26,7 +26,8 @@ Options
 
     Parameters :
     + object : current box object
-    Default : false
+    
+    Default : '75'
 
 Events
 -------
