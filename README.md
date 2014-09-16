@@ -22,7 +22,11 @@ Example
 Options
 -------
 
-    This plugin currently doesn't have options.
+* 'activeRatio' : percentage of active box over the rest
+
+    Parameters :
+    + object : current box object
+    Default : false
 
 Events
 -------
@@ -49,16 +53,6 @@ Events
 
     Parameters :
     + object : current box object
-
-
-Options
--------
-
-* 'activeRatio' : percentage of active box over the rest
-
-    Parameters :
-    + object : current box object
-    Default : false
 
 [Demo](http://zholpe.com/bvs/dist/basic/)
 -------
