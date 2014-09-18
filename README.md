@@ -2,6 +2,9 @@ Basic Vertical Slide JQuery
 ===========================
 - JQuery and CSS Transform Based Hover Slide which expands selected sections while contracts other sections verticaly.
 
+[Demo](http://basic-vertical-slide.zholpe.com/)
+-------
+
 Example
 -------
 
@@ -55,5 +58,4 @@ Events
     Parameters :
     + object : current box object
 
-[Demo](http://zholpe.com/bvs/dist/basic/)
--------
+
