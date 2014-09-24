@@ -105,7 +105,7 @@ Events
         </td>
     </tr>
     <tr>
-        <td>
+        <td colspan=3>
         </td>
     </tr>
     <tr>
@@ -142,11 +142,7 @@ Events
         </td>
     </tr>
     <tr>
-        <td>
-        </td>
-    </tr>
-    <tr>
-        <td>
+        <td colspan=3>
         </td>
     </tr>
     <tr>
@@ -180,10 +176,6 @@ Events
         </td>
         <td>
             current box object
-        </td>
-    </tr>
-    <tr>
-        <td>
         </td>
     </tr>
 </table>
