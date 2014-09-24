@@ -25,12 +25,38 @@ Example
 Options
 -------
 
-* 'activeRatio' : percentage of active box over the rest
 
-    Parameters :
-    + object : current box object
-    
-    Default : '75'
+<table>
+    <tr>
+        <th>
+            Name
+        </th>
+        <th colspan=3>
+            Description
+        </th>
+    </tr>
+    <tr>
+        <td>
+            activeRatio
+        </td>
+        <td colspan=3>
+            percentage of active box over the rest
+        </td>
+    </tr>
+    <tr>
+        <td>
+        </td>
+        <td>
+            Default
+        </td>
+        <td>
+            pixels
+        </td>
+        <td>
+            75
+        </td>
+    </tr>
+</table>
 
 Events
 -------
@@ -43,19 +69,122 @@ Events
     });
     </script>
 
-* 'onStart' : executed on animation start as well as on hover
 
-    Parameters :
-    + object : current box object
-
-* 'onComplete' : executed on animation complete
-
-    Parameters :
-    + object : current box object
-
-* 'onHoverOut' : executed on hover out of the box
-
-    Parameters :
-    + object : current box object
-
+<table>
+    <tr>
+        <th>
+            Name
+        </th>
+        <th colspan=2>
+            Description
+        </th>
+    </tr>
+    <tr>
+        <td>
+            onStart
+        </td>
+        <td colspan=2>
+            executed on animation start as well as on hover
+        </td>
+    </tr>
+    <tr>
+        <td>
+        </td>
+        <th colspan=2>
+            Parameters
+        </th>
+    </tr>
+    <tr>
+        <td>
+        </td>
+        <td>
+            object
+        </td>
+        <td>
+            current box object
+        </td>
+    </tr>
+    <tr>
+        <td>
+        </td>
+    </tr>
+    <tr>
+        <th>
+            Name
+        </th>
+        <th colspan=2>
+            Description
+        </th>
+    </tr>
+    <tr>
+        <td>
+            onComplete
+        </td>
+        <td colspan=2>
+            executed on animation complete
+        </td>
+    </tr>
+    <tr>
+        <td>
+        </td>
+        <th colspan=2>
+            Parameters
+        </th>
+    </tr>
+    <tr>
+        <td>
+        </td>
+        <td>
+            object
+        </td>
+        <td>
+            current box object
+        </td>
+    </tr>
+    <tr>
+        <td>
+        </td>
+    </tr>
+    <tr>
+        <td>
+        </td>
+    </tr>
+    <tr>
+        <th>
+            Name
+        </th>
+        <th colspan=2>
+            Description
+        </th>
+    </tr>
+    <tr>
+        <td>
+            onHoverOut
+        </td>
+        <td colspan=2>
+            executed on hover out of the box
+        </td>
+    </tr>
+    <tr>
+        <td>
+        </td>
+        <th colspan=2>
+            Parameters
+        </th>
+    </tr>
+    <tr>
+        <td>
+        </td>
+        <td>
+            object
+        </td>
+        <td>
+            current box object
+        </td>
+    </tr>
+    <tr>
+        <td>
+        </td>
+    </tr>
+</table>
 
